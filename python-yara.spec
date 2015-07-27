@@ -1,3 +1,6 @@
+# NOTE
+# built from yara.spec since 3.4.0
+
 %define 	module	yara
 Summary:	Python bindings to yara library
 Name:		python-%{module}
@@ -7,7 +10,7 @@ License:	GPL v2+
 Group:		Development/Languages/Python
 Source0:	http://yara-project.googlecode.com/files/yara-python-%{version}.tar.gz
 # Source0-md5:	45753421c40bb1d03bf32bdb99b8c831
-URL:		http://code.google.com/p/yara-project/
+URL:		https://github.com/plusvic/yara/tree/master/yara-python
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219

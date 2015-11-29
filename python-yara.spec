@@ -13,7 +13,7 @@ Source0:	http://yara-project.googlecode.com/files/yara-python-%{version}.tar.gz
 URL:		https://github.com/plusvic/yara/tree/master/yara-python
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	yara-devel
 Requires:	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
